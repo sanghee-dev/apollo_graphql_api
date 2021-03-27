@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/sanghee-dev/apollo_graphql_api#readme",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
