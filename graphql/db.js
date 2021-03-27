@@ -32,3 +32,13 @@ export const deleteMovie = (id) => {
     return false;
   }
 };
+
+export const addMovie = (name, year) => {
+  const newMovie = {
+    id: String(movies.length),
+    name,
+    year,
+  };
+  movies.push(newMovie);
+  return newMovie;
+};
